@@ -1,4 +1,4 @@
-# handle single input 
+# Graph 1 - handle single input 
 
 
 from typing import Dict, TypedDict

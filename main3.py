@@ -1,4 +1,4 @@
-# handle multiple inputs 
+# Graph 2 - handle multiple inputs 
 
 from typing import TypedDict, List
 from langgraph.graph import StateGraph, START, END

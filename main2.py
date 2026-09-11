@@ -1,3 +1,7 @@
+# Exercise Graph 1 - create a Personalized Compliment Agent 
+
+
+
 from os import name
 from typing import Dict, TypedDict
 from langgraph.graph import StateGraph, START, END
@@ -21,3 +25,8 @@ graph.add_edge("complimenter", END)
 app = graph.compile()
 result = app.invoke({"name" : "Xev"})
 print(result)
+
+
+# output -----
+
+# {'name': "Xev, you're doing great"}
