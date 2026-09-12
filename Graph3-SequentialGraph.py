@@ -1,7 +1,7 @@
 # Graph 3 - Sequential Graph
 
 
-from typing import TypedDict, final
+from typing import TypedDict
 from langgraph.graph import StateGraph, START, END
 
 
