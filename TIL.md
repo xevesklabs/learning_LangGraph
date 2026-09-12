@@ -176,7 +176,8 @@ Final State
 * Multiple inputs go in one state dictionary
 
 
-# Today I Learned
+
+# Today I Learned - Sequential Graph
 **Date:** September 12, 2026
 
 * Learned how to create a **3-node sequential graph**.
