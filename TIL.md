@@ -186,3 +186,36 @@ Final State
 * Learned how to connect nodes in sequence using `add_edge()`.
 * Learned how to use `join()` to convert a list of skills into a formatted string.
 * Learned how to combine the output from multiple nodes into one final message.
+
+
+
+# Today I Learned — LangGraph Basics
+
+**Date:** September 13, 2026
+**Topic:** LangGraph — Conditional Graphs
+
+* Learned how to create a **conditional graph**.
+* Learned how to use `add_conditional_edges()`.
+* Learned how a **router node** decides which node to execute.
+* Learned how to create different paths based on `operation1` and `operation2`.
+* Learned how to perform two separate operations using conditional routing.
+* Learned how to use multiple routers in the same graph.
+* Learned how `result1` and `result2` store the results of each operation.
+
+```text
+START
+  ↓
+Router 1
+  ↓
+ + / -
+  ↓
+Operation 1
+  ↓
+Router 2
+  ↓
+ + / -
+  ↓
+Operation 2
+  ↓
+END
+```
